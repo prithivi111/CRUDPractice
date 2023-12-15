@@ -12,7 +12,8 @@ public class FetchWholeTableFromDatabase {
 	public static void main(String[] args) throws ClassNotFoundException {
 		
 
-		try {///
+		try {///practice
+			
 			
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			Connection con = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/studentregistration", "root", "Suraj123@");
